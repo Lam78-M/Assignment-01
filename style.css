@@ -43,20 +43,25 @@ nav .menu a{
     font-weight: 300;
     color:white;
     cursor:pointer;
+    border-radius: 5px;
+    text-align: center;
+    
     
     
 }
 .btn .secondary{
-    background-color:#30B868 ;
-    border:none;
+  
+  background-color: rgba(73, 69, 69, 0.7);
+    border: none;
     width: 210px;
     height: 50px;
     font-size: 16px;
     font-weight: 300;
-    color:white;
-    cursor:pointer;
+    color: white;
+    cursor: pointer;
     margin-bottom: 70px;
-    
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 #banner{
@@ -68,32 +73,44 @@ nav .menu a{
    text-align: center;
     
 }
-#banner .banner-content{
-    
-}
-#banner .banner-content .p{
-    background-color: ;
+
     
 
-    font-size: 16px;
-    font-weight: 300;
-    color:#30B868;
-    margin-bottom: 10px;
-    padding-top:210px;
-    padding-bottom: 10px;
+#banner .banner-content .p{
     
+  
+    display: inline-block;   
+    background-color: rgba(255,255,255,0.8);
+    padding: 8px 16px;      
+    border-radius: 6px;      
+    font-size: 16px;
+    font-weight: 600;
+    color: #198847;
+    margin-top:200px;
+   
+    padding-bottom:10px;  
 }
-#banner .banner-content .h1{
-    margin-bottom: 16px;
-    padding-top:30px;
+
+
+
+    
+
+.green{
+    color:#30B868
+}
+#banner .banner-content h1{
+    font-size:bold;
+    color:white;
+    padding-top:20px;
+    padding-bottom:30px;
 }
 #banner .banner-content  .text-box{
 
     padding-top:18px;
     font-size:18px ;
-    color:#FFFFFF;
+    color:#F7F6F2;
     line-height: 24px;
-    margin-bottom:40px ;
+    margin-bottom:50px ;
 }
 
 
@@ -105,6 +122,7 @@ nav .menu a{
     border:none;
     font-size: 16px;
     border-radius: 5px;
+    cursor:pointer;
 }
 #skills{
     padding-top:40px;
@@ -118,7 +136,8 @@ max-width: 1600px;
 margin-bottom:3px ;
 }
 .section-heading h1{
-    margin-bottom:10px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 .section-heading p{
 color: #627362;
@@ -129,18 +148,27 @@ color: #627362;
      gap:40px;
 }
 .skill-card{
+    border-radius:;
     flex:1;
-    background-color:rgb(241, 238, 238) ;
+    background-color:#F7F6F2(41, 40, 40, 0.349) ;
     height: 230px;
     width:300px;
     border-radius: none;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
+    box-shadow: 0 0 5px 0;
 }
 .skill-card img{
-    margin-top: 50px;
+    border-radius: 15px;
+    margin-top: 60px;
     background-color: #f95555;
+}
+.skill-card h3{
+    margin-top:20px;
+}
+.skill-card p{
+    margin-top: 10px;
 }
 #features-section{
     margin-top: 200px;
@@ -149,11 +177,11 @@ color: #627362;
 #features-section{
     display: flex;
     align-items: center;
-    
     gap: 80px;
     
 }
 .features-text h5{
+    color:#30B868;
     margin-left:28px;
     font-size: 16px;
     margin-bottom: 20px;
@@ -188,8 +216,11 @@ padding-bottom:40;
 }
 #features-low{
     margin-top:150px;
-   height: 400px;
-    background-color: antiquewhite;
+    height: 400px;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-bottom:40px;
+    background-color:#F7F6F2;
     box-sizing: border-box;
     align-items: center;
     text-align: center;
@@ -213,16 +244,18 @@ padding-bottom:40;
     background-color: #30B868;
     text-align: center;
     font-size:16px;
-    height:52px;
+    height:48px;
     width:180px;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor:pointer;
+    border-radius: 4px;
     
 }
 #footer-container{
     
     width:100%;
-    background-color:#001931 ;
+    background-color:#043969 ;
     box-sizing: border-box;
     display:flex;
     height:330px;
@@ -241,22 +274,22 @@ padding-bottom:40;
 .Social h2{
     font-size: 20px;
     margin-left :1300px;
-    color:wheat;
+    color: #F7F6F2;
     align-items:flex-end;
     
 }
 .horse{
     font-size:18px;
      display: flex;
-     margin-left: 1300px;
+     margin-left: 1310px;
      gap:12px;
      
 }
 .footer-bottom{
-    background-color: #001931;
+    background-color: #043969;
     color:aliceblue;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 
