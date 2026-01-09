@@ -182,6 +182,39 @@ padding-bottom:40;
     margin-bottom: 14px;
     font-size:16px;
 }
+#features-low{
+    margin-top:150px;
+   height: 400px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+
+}
+#features-low .features-more h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:60px; 
+    margin-top:20px;
+    padding-top:40px;
+}
+.features-more p{
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: px; 
+    text-align: center;
+}
+.btn .you{
+    border:none;
+    background-color: #30B868;
+    text-align: center;
+    font-size:16px;
+    height:52px;
+    width:180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
 
 
 
