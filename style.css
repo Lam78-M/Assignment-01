@@ -215,7 +215,18 @@ padding-bottom:40;
     margin-bottom: 20px;
     
 }
+#footer-container{
+    
+    width:100%;
+    background-color:#001931 ;
+    box-sizing: border-box;
+    height:348px;
 
+}
+#footer-container .imagin{
+    padding-top:135px;
+    padding-left:120px;
+}
 
 
  
