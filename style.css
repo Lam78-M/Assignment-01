@@ -220,14 +220,32 @@ padding-bottom:40;
     width:100%;
     background-color:#001931 ;
     box-sizing: border-box;
-    height:348px;
+    display:flex;
+    height:350px;
+    
+  
 
 }
 #footer-container .imagin{
-    padding-top:135px;
-    padding-left:120px;
+    margin-left: 80px;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-
-
+.Social h2{
+    font-size: 20px;
+    margin-left :1300px;
+    color:wheat;
+    align-items:flex-end;
+    
+}
+.horse{
+    font-size:18px;
+     display: flex;
+     margin-left: 1300px;
+     gap:12px;
+     
+}
  
 
