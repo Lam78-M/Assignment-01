@@ -303,10 +303,21 @@ padding-bottom:40;
     background-color: #043969;
     color:aliceblue;
     text-align: center;
-    padding-bottom: 40px;
+    padding-top:30px;
+    padding-bottom: 50px;
+    font-size: 16px;
 }
 #banner .banner-content p img{
     
     margin-top: 9px;
+}
+.footer-line{
+
+    border:none;
+    height:1px;
+    background-color:#796d6d;
+
+
+    
 }
 
