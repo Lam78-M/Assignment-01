@@ -312,10 +312,12 @@ padding-bottom:40;
     margin-top: 9px;
 }
 .footer-line{
-
+  width:90%;
+  margin:0 auto;
     border:none;
     height:1px;
-    background-color:#796d6d;
+    background-color:#665b5b;
+    margin-bottom: 30px;
 
 
     
